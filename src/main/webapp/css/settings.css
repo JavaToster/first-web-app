@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    margin-left: -950px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: -850px;
+    margin-top: -260px;
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    padding: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.danger {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin: 15px;
+    width: 200px;
+}
+.danger-back{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+.back-button {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -1900px;
+    margin-top: -250px;
+}
+
+#alertDiv {
+    font-size: 18px;
+    color: black;
+    padding: 20px;
+    border: 1px solid black;
+    border: none;
+    margin-right: -1500px;
+    margin-top: -30px;
+    font-size: 17px;
+}
+
+.alertButton {
+    background-color: none;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.alertButton:hover {
+    background-color: lightgray;
+}
+
+#yesButton{
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    margin: 2px;
+    margin-left: 15px;
+}
+
+#noButton{
+    border:none;
+    background-color: #4CAF50;
+    color: white;
+    margin: 1px;
+}
+
+#divLastname{
+    margin-right: -1500px;
+    margin-top: 0px;
+}
+
+#inputLastname{
+    width: 250px;
+    height: 30px;
+}
+
+.inputButtonsLastname{
+    margin: 2px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    height: 40px;
+}
+
+#divName{
+    margin-right: -1500px;
+    margin-top: 0px;
+    margin-bottom: -100px;
+}
+
+#inputName{
+    width: 250px;
+    height: 30px;
+}
+
+.inputButtonsName{
+    margin: 2px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    height: 40px;
+}

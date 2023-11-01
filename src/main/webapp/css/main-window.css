@@ -1,0 +1,121 @@
+/* Reset styles */
+* {
+   /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #212121;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    height: 30px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+button {
+    height: 34px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    margin-left: 10px;
+    color: red;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;
+    justify-content: center; */
+    /*min-height: calc(100vh - 200px);*/
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.weather-info {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: px;
+    width: 1000px;
+
+}
+
+.info-item {
+    flex-basis: 100%;
+    margin-right: 650px;
+    width: 0px;
+ }
+
+h2 {
+    margin-right: 200px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+#temperature{
+    margin-left: 150px;
+    margin-top: -30px;
+}
+
+#humidity{
+    margin-left: 150px;
+    margin-top: -30px;
+}
+
+#description{
+    margin-left: 150px;
+    margin-top: -30px;
+}
+
+#pressure{
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+#city-name{
+    margin-right: 1400px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
