@@ -5,8 +5,6 @@ function register(){
     var phone = document.getElementById('phone').value;
     var password = document.getElementById('password').value;
 
-    document.cookie = 'username='+username;
-
     var xhr = new XMLHttpRequest();
     xhr.open("POST", "http://localhost:8080/back", true);
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
@@ -27,6 +25,7 @@ function register(){
                 let label = document.getElementById("message");
                 label.textContent = 'nickname registered';
             }else{
+                document.cookie = 'username='+username;
                 window.open('http://localhost:8080/main', '_self');
             }
         }
