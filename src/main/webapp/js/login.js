@@ -32,4 +32,3 @@ function login(){
     xhr.send(data);
 }
 
-//89172825928
