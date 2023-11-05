@@ -1,3 +1,4 @@
+//replace localhost with your ip address
 function register(){
     var username = document.getElementById('username').value;
     var firstname = document.getElementById('firstname').value;
