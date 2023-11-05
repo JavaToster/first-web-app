@@ -1,3 +1,4 @@
+// replace localhost with your ip address
 function toOut(){
     window.open('http://localhost:8080/login', '_self');
 }
