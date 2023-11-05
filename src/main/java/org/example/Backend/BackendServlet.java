@@ -84,37 +84,6 @@ public class BackendServlet extends HttpServlet {
                 object.put("state", 500);
             }
         }
-//        if(object.length() == 5) {
-//            if (GetInfo.checkUsername(username)) {
-//                object = new JSONObject().put("state", 200);
-//                object.put("username", "true");
-//            } else {
-//                String firstname = object.getString("firstname");
-//                String lastname = object.getString("lastname");
-//                String phone = object.getString("phone");
-//                String password = object.getString("password");
-//                Updates.singUp(username, firstname, lastname, phone, password);
-//                object = new JSONObject();
-//                object.put("state", 200);
-//                object.put("username", "false");
-//            }
-//        }else if(object.length() == 2){
-//            String password = object.getString("password");
-//            if(GetInfo.checkUsername(username) & GetInfo.checkPassword(username, password)){
-//                object = new JSONObject();
-//                object.put("state", 200);
-//                object.put("username", "true");
-//                object.put("password", "true");
-//            }else if(GetInfo.checkUsername(username)){
-//                object = new JSONObject();
-//                object.put("username", "true");
-//                object.put("password", "false");
-//            }else{
-//                object = new JSONObject();
-//                object.put("username", "false");
-//                object.put("password", "false");
-//            }
-//        }
         out.println(object.toString());
         out.flush();
         out.close();
