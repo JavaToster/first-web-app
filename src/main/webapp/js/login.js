@@ -1,3 +1,4 @@
+//replace localhost with your ip address
 function openRegisterWindow(){
     window.open('http://localhost:8080/register', '_self');
 }
