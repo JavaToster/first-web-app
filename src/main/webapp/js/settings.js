@@ -1,3 +1,4 @@
+//replace localhost with your ip address
 function toDelete() {
     // Create a new div element to display the alert
     var alertDiv = document.createElement('div');
